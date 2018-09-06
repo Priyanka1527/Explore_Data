@@ -16,3 +16,5 @@ crime_list = crime_list.set_index('Case Number')
 assault_list = pd.read_csv("../data/DS1.csv")
 crime_assault = assault_list.join(crime_list, on=['Case Number'])
 print (crime_assault)
+
+crime_assault.to_csv("../data/result_data.csv")
