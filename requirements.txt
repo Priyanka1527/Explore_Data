@@ -1,0 +1,4 @@
+- Python 3
+- Pandas Framework
+- Jupyter Notebook 
+- Plotly Framework
