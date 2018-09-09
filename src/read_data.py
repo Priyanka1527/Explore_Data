@@ -11,10 +11,8 @@ import pandas as pd
 #data2 = data.cumsum()
 #print (data2.plot())
 
-crime_list = pd.read_csv("../data/DS2.csv")
-crime_list = crime_list.set_index('Case Number')
-assault_list = pd.read_csv("../data/DS1.csv")
-crime_assault = assault_list.join(crime_list, on=['Case Number'])
-print (crime_assault)
+bike_station = pd.read_csv("../data/bike_station.csv")
+bike_trips = pd.read_csv("../data/bike_trips.csv")
 
-crime_assault.to_csv("../data/result_data.csv")
+bike_station_trip = pd.merge(bike_station, bike_trips, how='right', left_on=['station_id'], right_on=['start_station_id'])
+bike_station_trip.to_csv("../data/result_data.csv")
