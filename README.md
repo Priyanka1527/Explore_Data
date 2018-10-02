@@ -17,6 +17,8 @@ to clean and transform features (use pandas documentation for help)
 9. Commit your notebook, source code, visualizations and other supporting files to the git
 repository in GitHub
 
+_____________________________________________________________________________________________
+
 ● Required frameworks installed : Python Jupyter Notebook, Plotly
 
 ● Industry Chosen: Ride Sharing Industry
