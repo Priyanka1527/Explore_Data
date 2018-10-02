@@ -36,5 +36,5 @@ stations, docs and bikes installed in that particular area due to the increasing
 ● The Results of the Histogram is saved under **_Explore_data/reports_**
 
 ● References:
-https://plot.ly/python/aggregations/
-https://plot.ly/python/ipython-notebook-tutorial/
+- https://plot.ly/python/aggregations/
+- https://plot.ly/python/ipython-notebook-tutorial/
